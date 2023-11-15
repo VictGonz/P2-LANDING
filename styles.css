@@ -1,0 +1,77 @@
+@import url( https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext
+); 
+
+*{
+  font-family: 'Opensans',sans-serif;
+}
+ header{
+  background-color: white;
+  display: inline ;
+ }
+nav.NavBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Opensans',sans-serif;
+  position: relative;
+  background-color: white;
+}
+
+.NavElement{
+  flex-wrap: wrap;
+  display: inline;
+  font-family: 'cyrillic-ext';
+  font-family: 'Opensans',sans-serif;
+ }
+
+img.BrandLogo{
+width: 60px;
+height: 40px;
+}
+
+.downloadButton{
+  background-color: white;
+   border-radius: 40px;
+   width: 100px;
+   height:50px;
+   border-color:#FF556E;
+   font-family: 'Opensans',sans-serif;
+   color:#FF556E;
+
+}
+.description1{
+  list-style: circle;
+}
+.description1Container{
+  display: flex;
+  margin: auto;
+  width: auto;
+  flex-direction: row;
+}
+.description1Image{
+  width: 400px;
+  height: 900px;
+}
+.description1Text{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.description2{
+  list-style: circle;
+}
+.description2Container{
+  display: flex;
+  margin: auto;
+  width: auto;
+  flex-direction: row-reverse
+}
+.description2Image{
+  width: 400px;
+  height: 900px;
+}
+.description2Text{
+  display: flex;
+  flex-direction:column-reverse;
+  text-align: left;
+}
